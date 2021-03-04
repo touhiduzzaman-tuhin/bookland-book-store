@@ -1,0 +1,20 @@
+.testimonial-area{
+    padding-top: 20px;
+    border : 1px solid lightgrey;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+.testimonial-area p{
+    font-family: Lora;
+    padding: 2px;
+}
+.testimonial-circle{
+    height: 50px;
+    width: 50px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 5px;
+}
