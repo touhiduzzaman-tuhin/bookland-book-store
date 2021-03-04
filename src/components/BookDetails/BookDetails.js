@@ -1,22 +1,20 @@
 import React from 'react';
-import Banner from '../Banner/Banner';
+import BookCategory from '../BookCategory/BookCategory';
 import Category from '../Category/Category';
 import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
-import LatestNews from '../LatestNews/LatestNews';
 import Subscribe from '../Subscribe/Subscribe';
+import Testimonial from '../Testimonial/Testimonial';
 
-const Home = () => {
+const BookDetails = () => {
     return (
         <div>
-            <Header></Header>
-            <Banner></Banner>
-            <LatestNews></LatestNews>
+            <Testimonial></Testimonial>
             <Category></Category>
             <Subscribe></Subscribe>
+            <BookCategory></BookCategory>
             <Footer></Footer>
         </div>
     );
 };
 
-export default Home;
+export default BookDetails;

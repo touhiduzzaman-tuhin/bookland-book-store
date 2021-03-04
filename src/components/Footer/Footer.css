@@ -1,0 +1,15 @@
+.footer-image{
+    border-radius: 10px;
+}
+.footer-left-side{
+    font-family: Open Sans;
+}
+.footer-right-side{
+    margin-top: 60px;
+    font-family: Poppins;
+}
+.copy-right-area{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Poppins;
+}
