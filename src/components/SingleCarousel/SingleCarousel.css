@@ -1,0 +1,28 @@
+.customer-review-area{
+    background-color: gray;
+    border-radius : 10px;
+}
+/* .carousel-indicators{
+    margin-top: 50px;
+    background-color: orange;
+}
+.carousel-indicators {
+    bottom: -50px;
+} */
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    /* background-color : orange; */
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators .active{
+    background-color: #f00;
+    margin-top: 20px;
+}

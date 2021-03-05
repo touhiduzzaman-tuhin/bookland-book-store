@@ -26,8 +26,9 @@ const Header = () => {
                     <Form inline>
                         <FormControl type="text" placeholder="Search Books Here" className="mr-sm-2" />
                     </Form>
-                    <Nav.Link as={Link} to='/'>Pricing</Nav.Link>
-                    <Nav.Link as={Link} to='/bookDetails'>Book Details Page</Nav.Link>
+                    <Nav.Link as={Link} to='/bookDetails'>
+                        <h5>Book Details Page</h5>
+                    </Nav.Link>
                 </Nav>
 
                 

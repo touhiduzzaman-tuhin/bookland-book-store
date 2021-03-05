@@ -9,8 +9,7 @@ const LatestNews = () => {
     return (
         <div className='container'>
             <div className="latest-header" align="center">
-                <h3>Latest News</h3>
-                <p>Lorem ipsum dolor sit amet consectetur <br/> adipisicing elit. Est, quia?</p>
+                <p style={{fontFamily : 'Open Sans'}}>Lorem ipsum dolor sit amet consectetur <br/> adipisicing elit. Est, quia?</p>
             </div>
             <div className="row">
                 {
