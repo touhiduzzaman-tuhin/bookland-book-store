@@ -1,0 +1,11 @@
+.overview-box{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.overview-area p{
+    color : gray;
+}

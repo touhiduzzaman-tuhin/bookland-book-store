@@ -1,0 +1,14 @@
+table, tr{
+    border : 1px solid lightgrey;
+    padding : 5px;
+}
+th{
+    padding : 10px;
+    border-bottom: 2px solid orange;
+}
+tr, td, th {
+    padding : 5px;
+}
+td,th{
+    padding-left: 20px;
+}
