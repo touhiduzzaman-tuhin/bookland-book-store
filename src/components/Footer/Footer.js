@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <div className="container">
             <div className='row'>
-                <div className="col-md-6 footer-left-side">
+                <div className="col-12 col-md-6 footer-left-side">
                     <img className="w-25" src={logo} alt=""/>
                     <p>Bookland is a Book Store Ecommerce Website Template by Peterdraw lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
 
@@ -20,9 +20,9 @@ const Footer = () => {
                     <FaLinkedin></FaLinkedin> &nbsp; &nbsp;
                     <FaInstagram></FaInstagram>
                 </div>
-                <div className="col-md-6 footer-right-side">
+                <div className="col-12 col-md-6 footer-right-side">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-6 col-md-6">
                             <h4>Get in Touch With Us</h4>
                             <p>
                                 <FontAwesomeIcon icon={faLocationArrow}></FontAwesomeIcon> &nbsp;
@@ -37,7 +37,7 @@ const Footer = () => {
                                 support@bookland.id
                             </p>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-6 col-md-6">
                             <img className="w-100 footer-image" src={image} alt=""/>
                         </div>
                     </div>

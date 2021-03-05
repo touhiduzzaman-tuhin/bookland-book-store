@@ -7,7 +7,7 @@ import { FaFacebookSquare, FaMailBulk, FaTwitterSquare, FaWhatsappSquare } from 
 const BookRating = () => {
     return (
         <div className="row my-3">
-            <div className="col-md-4">
+            <div className="col-12 col-md-4">
                 <div className='d-flex'>
                     <img src={star} alt=""/>
                     <img src={star} alt=""/>
@@ -17,17 +17,17 @@ const BookRating = () => {
                 </div>
             </div>
 
-            <div className="col-md-8">
+            <div className="col-12 col-md-8">
                 <div  align="right" className="row">
-                    <div className="col-md-6">
+                    <div className="col-8 col-md-8">
                         <div className="d-flex">
-                            <FontAwesomeIcon icon={faComment}></FontAwesomeIcon> &nbsp;
+                            <FontAwesomeIcon icon={faComment}></FontAwesomeIcon> 
                             <p>235 Review</p> &nbsp; &nbsp;
                             <FontAwesomeIcon icon={faThumbsUp}></FontAwesomeIcon> &nbsp;
                             <p>456k Like</p>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-4 col-md-4">
                         <div>
                             <FaFacebookSquare></FaFacebookSquare> &nbsp;
                             <FaTwitterSquare></FaTwitterSquare> &nbsp;

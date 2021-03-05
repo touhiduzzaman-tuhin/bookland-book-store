@@ -7,10 +7,10 @@ const Subscribe = () => {
         <div className="subscribe-area">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 subscribe-right-area">
+                    <div className="col-6 col-md-6 subscribe-right-area">
                         <h3>Subscribe our newsletter for <br/> newest books updates</h3>
                     </div>
-                    <div className="col-md-6 d-flex justify-content-center align-items-center input-area">
+                    <div className="col-6 col-md-6 d-flex justify-content-center align-items-center input-area">
                         <input type="email" name="email" id="" placeholder="Type Your Email Here" required/>
                         <Button variant='warning'>Subscribe</Button>
                     </div>

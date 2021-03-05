@@ -5,7 +5,7 @@ const TestimonialDetails = (props) => {
     console.log(props);
     const {description, name, star, testimonialId} = props.testimonial;
     return (
-        <div className='col-md-3'>
+        <div className='col-6 col-sm-6 col-md-4 col-lg-3'>
             <div className='testimonial-area'>
                 <img src={star} alt=""/>
                 <img src={star} alt=""/>

@@ -65,12 +65,12 @@ const CompanyOverView = () => {
                                 <h6>Tags</h6>
                             </td>
                             <td>
-                                <Button className='mx-2' variant='warning'>Drama</Button>
-                                <Button className='mx-2' variant='warning'>Architecture</Button>
-                                <Button className='mx-2' variant='warning'>Servival</Button>
-                                <Button className='mx-2' variant='warning'>Biology</Button>
-                                <Button className='mx-2' variant='warning'>Trending 2020</Button>
-                                <Button className='mx-2 mt-2' variant='warning'>Bestseller</Button>
+                                <Button className='m-2' variant='warning'>Drama</Button>
+                                <Button className='m-2' variant='warning'>Architecture</Button>
+                                <Button className='m-2' variant='warning'>Servival</Button>
+                                <Button className='m-2' variant='warning'>Biology</Button>
+                                <Button className='m-2' variant='warning'>Trending 2020</Button>
+                                <Button className='m-2 mt-2' variant='warning'>Bestseller</Button>
                             </td>
                         </tr>
                     </table>

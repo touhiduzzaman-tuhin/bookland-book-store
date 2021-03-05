@@ -8,14 +8,14 @@ const BookOverviewFooter = () => {
 
     return (
         <div className='row my-5'>
-            <div className="col-md-4">
+            <div className="col-12 col-sm-12 col-md-4 my-2">
                 <div className='d-flex justify-content-around'>
                     <h3>$15,63</h3>
                     <h6 style={{color: 'gray'}}>$16,99</h6>
                     <Button variant='danger'>2%</Button>
                 </div>
             </div>
-            <div align='right' className="col-md-8">
+            <div align='right' className="col-12 col-sm-12 col-md-8 my-2">
                 <div className=''>
                     <Button variant='success' onClick={() => setBookCart(bookCart - 1)}>
                         <FontAwesomeIcon icon={faMinus}></FontAwesomeIcon>

@@ -9,10 +9,10 @@ const SingleBook = (props) => {
     return (
         <div className='col-md-12'>
             <div className="row my-3">
-                <div className="col-md-5 book-left-area">
+                <div className="col-6 col-md-5 book-left-area">
 
                 </div>
-                <div className="col-md-7">
+                <div className="col-6 col-md-7">
                     <h5>{name}</h5>
                     <div>
 

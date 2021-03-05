@@ -8,7 +8,7 @@ const NewsDetails = (props) => {
     console.log(props);
     const {newsTitle, publishedDate, publishedName} = props.news;
     return (
-        <div className='col-md-3'>
+        <div className='col-6 col-sm-6 col-md-4 col-lg-3 my-2'>
            <Card>
                 <Card.Img variant="top" src={newsImage} />
                 <Card.Body>

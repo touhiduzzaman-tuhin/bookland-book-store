@@ -8,12 +8,12 @@ const BookDetailsBanner = () => {
     return (
         <div className="container my-5">
             <div className="row">
-                <div className="col-md-2">
-                    <div className="book-banner-left">
+                <div className="col-3 col-md-2">
+                    <div className="book-banner-left h-100">
 
                     </div>
                 </div>
-                <div className="col-md-10">
+                <div className="col-9 col-md-10">
                     <h3 style={{fontFamily : 'Poppins'}}>Think and Grow Rich</h3>
                     <BookRating></BookRating>
                     <BookOverview></BookOverview>

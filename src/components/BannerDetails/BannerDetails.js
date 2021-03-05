@@ -8,7 +8,7 @@ const BannerDetails = (props) => {
     console.log(props);
     const {bannerTitle, ownerName} = props.data;
     return (
-        <div className='col-md-4'>
+        <div className='col-6 col-sm-6 col-md-6 col-lg-4 my-2'>
             <Card>
                 <Card.Img variant="top" src={bannerImage} />
                 <Card.Body>
@@ -21,13 +21,20 @@ const BannerDetails = (props) => {
                 </Card.Text>
                 <h4 className="mb-4">{ownerName}</h4>
 
-                <div className='d-flex justify-content-around'>
-                    <Button variant='warning'>
-                        <FontAwesomeIcon icon={faCartPlus}></FontAwesomeIcon> &nbsp;
-                        Add To Cart
-                    </Button>
-                    <h3>$18,75</h3>
-                    <h4 style={{color : 'gray'}}><del>$25</del></h4>
+                <div className='row'>
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-7">
+                        <Button variant='warning'>
+                            <FontAwesomeIcon icon={faCartPlus}></FontAwesomeIcon> &nbsp;
+                            Add Cart
+                        </Button>
+                    </div>
+                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">
+                        <h6>$18,75</h6>
+                    </div>
+                    <div className="col-6 col-sm-6 col-md-3 col-lg-2">
+                    <p style={{color : 'gray'}}><del>$25</del></p>
+                    </div>
+                                       
                 </div>
 
                 </Card.Body>
